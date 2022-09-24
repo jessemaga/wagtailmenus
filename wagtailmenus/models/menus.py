@@ -8,7 +8,7 @@ from django.http import HttpRequest
 from django.template.loader import get_template, select_template
 from django.utils.functional import cached_property, lazy
 from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import gettext as _
 from modelcluster.models import ClusterableModel
 try:
     from wagtail import hooks
